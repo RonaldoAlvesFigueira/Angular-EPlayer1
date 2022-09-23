@@ -1,35 +1,3 @@
-@font-face {
-    font-family: "Roboto-Regular";
-    /* apelido */
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Roboto-Black";
-    src: url(../fonts/Roboto/Roboto-Black.ttf);
-}
-
-@font-face {
-    font-family: "TitilliumWeb-Bold";
-    src: url(../fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
-}
-
-/* reset da página */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    /* 
-        propriedades de fonts são herdáveis porém os 
-        links e campos de formulários não as herdam 
-    */
-    font-family: "Roboto-Regular";
-    font-size: 16px;
-    color: white;
-}
 
 /* CSS GENÉRICO */
 .showNavbar {
@@ -95,7 +63,7 @@ header .menu .item-menu {
 .banner {
     height: 600px;
     background-color: salmon;
-    background-image: url(../images/banner_pilotos.png);
+    background-image: url(/assets/images/banner_pilotos.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -201,7 +169,7 @@ header .menu .item-menu {
 
 .participacao-box{
     
-background-image: url(../images/fundo-sobre.png);
+background-image: url(/assets/images/fundo-sobre.png);
 max-width: 1200px;
 
 }
@@ -246,7 +214,7 @@ margin-left: 90px;
 @media screen and (max-width: 991px) {
     /* imagem alternativa para o tablet
     .banner {
-        background-image: url(../images/banner_lol.png);
+        background-image: url(/assets/images/banner_lol.png);
         
     } */
 
