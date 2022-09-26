@@ -1,13 +1,13 @@
-// $(document).ready(function(){
+$(document).ready(function(){
 
    
-//     $(".card-buy").click(function(){
-//         alert("Ops, produto Indisponível, sorry :(");
+    $(".card-buy").click(function(){
+        alert("Ops, produto Indisponível, sorry :(");
 
-//         $(this).text("Indisponível");
-//     });
+        $(this).text("Indisponível");
+    });
 
-// });
+});
 
 
 
